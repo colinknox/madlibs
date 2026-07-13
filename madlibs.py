@@ -8,16 +8,4 @@ verb_one = input("Verb: ")
 verb_two = input("Verb: ")
 verb_three = input("Verb: ")
 
-words_for_madlib = (
-    noun_one, 
-    noun_two, 
-    noun_three, 
-    adjective_one, 
-    adjective_two, 
-    adjective_three, 
-    verb_one, 
-    verb_two, 
-    verb_three
-    )
-
-print(f"WORDS FOR MADLIBS TYPE: {type(words_for_madlib)}")
+madlib = f"I live on a {noun_one}.\nIn this {noun_one}, the {adjective_three}, {noun_two} {verb_two} from the sky.\nWhen the local {noun_three}, came {adjective_two} to the scene,\nthey {verb_one} and {verb_three} at the mere sight of the {verb_three}"
